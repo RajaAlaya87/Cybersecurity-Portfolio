@@ -62,8 +62,8 @@ Control types include, but are not limited to:
 
 Does Botium Toys currenly have this control in place? 
 
-| Yes / No / ? | Control | Explanation |
-| :-------        |    :---:   | :---     |
+| Yes or No | Control | Explanation |
+| :-------  |    :---:   | :---     |
 | No | Least Privilige | The employees have access to customer data. This has to be changed to reduce the risk of breach. |
 | No | Disaster Recovery Plan | At the moment, there is no plan for handling disaster. Implementing this ensures the business continuity. |
 | Yes | Firewall | The organization has a firewall to block traffic based on an appropriately defined set of security rules. |
