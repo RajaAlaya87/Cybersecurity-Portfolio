@@ -55,12 +55,11 @@ A senior analyst confirms that the website was compromised. The analyst checks t
 The cybersecurity team reports that the web server was impacted by a brute force attack. The disgruntled baker was able to guess the password easily because the admin password was still set to the default password. Additionally, there were no controls in place to prevent a brute force attack. 
 Your job is to document the incident in detail, including identifying the network protocols used to establish the connection between the user and the website.  You should also recommend a security action to take to prevent brute force attacks in the future.
 
-## Respond: 
-### Part 1 : Identify the network protocol involved in the incident
+##  Identify the network protocol involved in the incident
 
 The protocol that got impacted is HTTP or commonly found in port 80. TCPdump detected the problem, captured the protocol and traffic activity in DNS (Port 53) and HTTP traffic log. Since the malicious file is being transported to users, this incident occurred at the application layer.
 
-### Part 2 : Document the incident
+## Document the incident
 
 Several customers reported that when they visited the website, they were prompted/given one option: Download and run a file to update their browsers. Soon after, they were locked out of their account. 
  
@@ -70,7 +69,7 @@ Based on the logs, initially, the browser requested the IP address for yummyrece
  
 When the senior team received this, he discovered the attack had manipulated the website to inject code that prompted users to download a malicious file disguised as a browser update. Since the administrator account was compromised, everyone’s account was locked out. The team believed that it was a brute force attack. Now, the malicious file has spread to further damage other computers. 
  
- ### Part 3: Recommend one remediation for brute force attacks
+ ## Recommend one remediation for brute force attacks
 
 2-factor authentication (2FA). One-time password OTP to either their email or phone. Once the user confirms their identity via credential and OTP, they will gain access to the system. Any malicious actor that attempts a brute force attack will not likely gain access to the system because it requires additional authorization. 
 
