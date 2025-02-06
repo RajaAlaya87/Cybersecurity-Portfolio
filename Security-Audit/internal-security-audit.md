@@ -1,6 +1,6 @@
 # Controls and Compliance Assessment 
 
-## Case Study
+## Scenario
 
 This is based on a fictional company:
 
@@ -12,17 +12,14 @@ The IT manager starts by implementing the National Institute of Standards and Te
 
 Your task is to review the IT manager’s scope, goals, and risk assessment report. Then, perform an internal audit by completing a controls and compliance checklist. 
 
-## Scenario
-Botium Toys: Scope, Goals, and Risk Assessment Report
-
-### Scope 
+## Scope 
 
 The scope is defined as the entire security program at Botium Toys. This means all assets need to be assessed alongside internal processes and procedures related to the implementation of controls and compliance best practices.
 
-### Goals
+## Goals
 Assess existing assets and complete the controls and compliance checklist to determine which controls and compliance best practices need to be implemented to  improve Botium Toys’ security posture.
 
-### Current assets
+## Current assets
 Assets managed by the IT Department include: 
 * On-premises equipment for in-office business needs
 * Employee equipment: end-user devices (desktops/laptops, smartphones), remote workstations, headsets, cables, keyboards, mice, docking stations, surveillance cameras, etc.
@@ -33,34 +30,35 @@ Assets managed by the IT Department include:
 * Data retention and storage
 * Legacy system maintenance: end-of-life systems that require human monitoring 
 
-### Risk assessment
+## Risk assessment
 
-#### Risk description
+### Risk description
 Currently, there is inadequate management of assets. Additionally, Botium Toys does not have all of the proper controls in place and may not be fully compliant with U.S. and international regulations and standards. 
 
-#### Control best practices
+### Control best practices
 The first of the five functions of the NIST CSF is Identify. Botium Toys will need to dedicate resources to identify assets so they can appropriately manage them. Additionally, they will need to classify existing assets and determine the impact of the loss of existing assets, including systems, on business continuity.
 
-#### Risk score
+### Risk score
 On a scale of 1 to 10, the risk score is 8, which is fairly high. This is due to a lack of controls and adherence to compliance best practices.
 
-#### Additional comments
+### Additional comments
 The potential impact from the loss of an asset is rated as medium, because the IT department does not know which assets would be at risk. The risk to assets or fines from governing bodies is high because Botium Toys does not have all of the necessary controls in place and is not fully adhering to best practices related to compliance regulations that keep critical data private/secure. Review the following bullet points for specific details:
 
-#### Additional Info 
+### Control categories end types
 
-In Cybersecurity, control types can be classified in three ways: 
+Controls within cybersecurity are grouped into three main categories: 
 1. Administrative/Managerial controls
 2. Technical controls
 3. Physical/Operational controls
 
-Control types (providing defense and protecting assets) include, but are not limited to:
-1. Preventative (preventing an incident from occurring in the first place)
-2. Corrective (restoring an asset after an incident)
-3. Detective (Determining whether an incident has occurred or is in progress)
-4. Deterrent (Discouraging attacks)
+Control types include, but are not limited to:
+1. Preventative 
+2. Corrective 
+3. Detective 
+4. Deterrent 
 
-## Controls Assessment Checklist
+## Controls and compliance checklist
+### Controls Assessment Checklist
 
 Does Botium Toys currenly have this control in place? 
 
@@ -78,7 +76,7 @@ Does Botium Toys currenly have this control in place?
 | Yes | CCTV | It is working and functioning. |
 | Yes | Fire detection | The organization has these. However, the team should maintain it and establish a plan on how to use it. |
 
-## Compliance Checklist
+### Compliance Checklist
 Does Botium Toys currenly adhrere to this compliance best practice? 
 
 * Payment Card Industry Data Security Standard (PCI DSS)
