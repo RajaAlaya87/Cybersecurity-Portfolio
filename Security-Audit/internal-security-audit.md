@@ -65,11 +65,9 @@ Does Botium Toys currenly have this control in place?
 | Yes or No | Control | Explanation |
 | :-------     |    :---:   | :---     |
 | No | Least Privilige |The employees have access to customer data; privileges need to be limited to reduce the risk of a breach. |
-| No | Disaster Recovery Plan |There is no plan for handling disaster. These need to
-be implemented to ensure business continuity. |
+| No | Disaster Recovery Plan |There is no plan for handling disaster. These need to be implemented to ensure business continuity. |
 | No | Password policies | Employee password requirements are minimal which can put the identity management access at risk. |
-| No | Separation of duties | Needs to be implemented to reduce the possibility of
-fraud/access to critical data. |
+| No | Separation of duties | Needs to be implemented to reduce the possibility of fraud/access to critical data. |
 | Yes | Firewall | The existing  firewall blocks traffic based on an appropriately defined set of security rules. |
 | No | IDS | This would help the IT team to identify possible intrusions by the threat actors. | 
 | Yes | Antivirus | The antivirus software is active and regulary monitored by IT team. |
@@ -78,15 +76,14 @@ fraud/access to critical data. |
 | No | Encryption | This would protect confidentiality of data. |
 | Yes | Locks| The organization have sufficient locks.|
 | Yes | Closed-circuit television (CCTV) | It is working and functioning. |
-| Yes | Fire detection/prevention |Botium Toys’ physical location has a functioning
-re detection and prevention system.. |
+| Yes | Fire detection/prevention |Botium Toys’ physical location has a functioning re detection and prevention system. |
 
 ### Compliance Checklist
 Does Botium Toys currenly adhrere to this compliance best practice? 
 
 * Payment Card Industry Data Security Standard (PCI DSS)
 
-| Yes or No ? | Best Practice | Explanation |
+| Yes or No | Best Practice | Explanation |
 | :---        |    :---:   | :---     |
 | No | Authorized users can access to customer's credit card. | At the moment, all employees have access to it which is a bad practice in the business.  |
 | No | Credit card is stored in a secure environment. | It is not encrypted and violates the law and regulations. |
