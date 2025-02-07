@@ -104,7 +104,7 @@ Does Botium Toys currenly adhrere to this compliance best practice?
 | Yes | Data integrity is consistent, complete, accurate | Data integrity is in place. | 
 | No | Data is available to authorized users | Currently, all the employees can access all the data. |
 
-## Recommendations (optional)
+## Recommendations
 Multiple controls need to be implemented to improve Botium Toys’ security posture and better ensure the confidentiality of sensitive information, including: Least Privilege, disaster recovery plans, password policies, separation of duties, an IDS, ongoing legacy system management, encryption, and a password management system.
 
 To address gaps in compliance, Botium needs to implement and establish the policies that can address the following above. Botium also needs to update its assets so the additional control can be identified as soon as possible to improve their security practice. 
