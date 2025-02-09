@@ -26,7 +26,7 @@ In order to read the file contents, I used the .read() method to convert it into
 # Read the initial contents of the file
 with open(import, "r") as file:
 # use `.read()` to read the imported file and store it in a variable named `ip_addresses'
-ip_addresses = fil.read() 
+ip_addresses = file.read() 
 ```
 When using an .open() function that includes the argument "r" for “read,” I can call the .read() function in the body of the with statement. The .read() method converts the file into a string and allows me to read it. I applied the .read() method to the file variable identified in the with statement. Then, I assigned the string output of this method to the variable ip_addresses. 
 
